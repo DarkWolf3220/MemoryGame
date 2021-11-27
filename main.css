@@ -1,0 +1,234 @@
+body
+{
+	margin: 0;
+	background-color: #26282E;
+	color: #209781;
+    font-family: 'Lobster', sans-serif;
+    font-size: 28px;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+a:link.index { 
+	color: #209781; 
+	text-decoration: none; 
+}
+
+a:link .index{
+	color: white;
+	text-decoration: none;
+}
+
+a:visited.index {
+	color: white;
+	text-decoration: none; 
+}
+
+a:active.index { 
+	color: white;
+	text-decoration: none; 
+}
+
+main{
+	margin-top: 50px;
+}
+
+h1{
+	font-size: 64px;
+	font-weight: 400;
+	text-align: center;
+	letter-spacing: 5px;
+	margin-bottom: 25px;
+	margin-top: 20px;
+}
+
+.board {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+/* Carts small size */
+
+.card {
+	width: 125px;
+	height: 125px;
+	display: inline-block;
+	margin: 3px;
+	background-image: url(img/karta.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border: 4px solid #51c8b2;
+	border-radius: 4px;
+	cursor: pointer;
+	filter: brightness(70%);
+	transition: all 0.3s ease-in-out;
+}
+
+.card:hover { 
+	border: 4px solid #e9b64a;
+	filter: brightness(100%);
+}
+
+.card-active {
+	width: 125px;
+	height: 125px;
+	display: inline-block;
+	margin: 3px;
+	background-image: url(img/karta.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border: 4px solid #e9b64a;
+	border-radius: 4px;
+	cursor: default;
+	filter: brightness(100%);
+	transition: all 0.3s ease-in-out;
+}
+
+/* Carts medium size */
+
+.board-medium {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.card-medium {
+	width: 97px;
+	height: 97px;
+	display: inline-block;
+	margin: 5px;
+	background-image: url(img/karta.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 97px 97px;
+	border: 4px solid #51c8b2;
+	border-radius: 4px;
+	cursor: pointer;
+	filter: brightness(70%);
+	transition: all 0.3s ease-in-out;
+}
+
+.card-medium:hover { 
+	border: 4px solid #e9b64a;
+	filter: brightness(100%);
+}
+
+.card-medium-active {
+	width: 97px;
+	height: 97px;
+	display: inline-block;
+	margin: 3px;
+	background-image: url(img/karta.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 97px 97px;
+	border: 4px solid #e9b64a;
+	border-radius: 4px;
+	cursor: default;
+	filter: brightness(100%);
+	transition: all 0.3s ease-in-out;
+}
+
+/* Score */
+.score {
+	margin-top: 5px;
+	letter-spacing: 2px;
+}
+
+/* Websites build */
+
+.reload
+{
+    margin-top: 5px;
+    letter-spacing: 2px;
+}
+ 
+.reload:hover
+{
+    color: #e9b64a;
+    cursor: pointer;
+}
+
+.top{
+	height: 50px;
+	background-color: rgb(39, 12, 134);
+	font-size: 40px;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-bottom: 15px;
+	color: white;
+}
+
+footer{
+	width: 100%;
+  	height: 40px;
+  	position: absolute;
+  	bottom: 0;
+	background-color: rgb(39, 12, 134);
+	text-align: center;
+	padding-top: 20px;
+	font-size: 20px;
+	color: white;
+}
+
+/* Index */
+
+.container {
+  color: white;
+  font-family: sans-serif;
+}
+
+.row{
+	text-align: center;
+}
+
+.easy{
+	text-align: center;
+	height: 46px;
+}
+
+.medium{
+	margin-top: 20px;
+	text-align: center;
+	height: 46px;
+}
+
+.hard{
+	text-align: center;
+	margin-top: 20px;
+	height: 46px;
+}
+
+.button-level{
+	font-size: 34px;
+	border: 1px solid rgb(39, 12, 134);
+	border-radius: 10px;
+	background-color: rgb(39, 12, 134);
+	color: white;
+}
+
+.button-level:hover{
+	font-size: 40px;
+	border: 1px solid rgb(39, 12, 134);
+	background-color: rgb(39, 12, 134);
+	color: white;
+	border-radius: 18px;
+	transition: all 0.2s ease-in-out;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
