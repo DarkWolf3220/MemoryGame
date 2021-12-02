@@ -1,8 +1,6 @@
-body
-{
+body{
 	margin: 0;
 	background-color: #26282E;
-	color: #209781;
     font-family: 'Lobster', sans-serif;
     font-size: 28px;
 	-webkit-touch-callout: none;
@@ -11,6 +9,7 @@ body
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+	color:white;
 }
 
 a:link.index { 
@@ -18,7 +17,7 @@ a:link.index {
 	text-decoration: none; 
 }
 
-a:link .index{
+a:link.index{
 	color: white;
 	text-decoration: none;
 }
@@ -94,13 +93,6 @@ h1{
 
 /* Carts medium size */
 
-.board-medium {
-	width: 600px;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-}
-
 .card-medium {
 	width: 97px;
 	height: 97px;
@@ -142,6 +134,7 @@ h1{
 .score {
 	margin-top: 5px;
 	letter-spacing: 2px;
+	color: white;
 }
 
 /* Websites build */
